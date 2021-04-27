@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.navbar-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+    width: 50%;
+}
+
+.logo img{
+    width: 140px;
+    height: 119px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+.nav-list li a:hover{
+    color: tomato;
+}
+
+.nav-list li a{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.rightnav{
+    width: 50%;
+    text-align: right;
+}
+
+
+#search{
+    padding: 3px 125px;
+
+    border-radius: 3px;
+}
+
+.rightnav{
+    margin: 29px 10px;
+}
+
+.rightnav input{
+    width: 500px;
+}
+
+.rightnav button{
+    padding: 3px;
+    
+}
+
+.rightnav button:hover{
+    color: tomato;
+    cursor: pointer;
+    background-color: black;
+
+}
+
+.background{
+    background:rgba(0, 0, 0, 0.3) url('backgroung.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+}
